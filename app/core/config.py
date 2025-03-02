@@ -14,6 +14,9 @@ class Settings(BaseSettings):
     
     # Batch Processing Configuration
     BATCH_INTERVAL_SECONDS: float = 5.0
+
+    # Application cache invalidation
+    CACHE_TTL_SECONDS: int = 5
     
     # Application Configuration
     DEBUG: bool = True
